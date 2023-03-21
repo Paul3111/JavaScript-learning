@@ -56,8 +56,6 @@ Fizz
 Fizz
 Buzz */
 
-
-
 let r = 1
 function fizzbuzzUntil(number_to_loop_to) {
     while (r <= number_to_loop_to) {
