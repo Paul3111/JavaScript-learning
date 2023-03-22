@@ -17,8 +17,8 @@ Require the file into the node REPL to verify the class is working.
 Reveal suggested solution
 */
 
-//*/
-// SOLUTION
+/*
+SOLUTION
 
 class User {
     constructor(full_name) {
@@ -40,7 +40,7 @@ module.exports = User;
 // console.log(user1.getName())
 // console.log(user1.getIntroduction())
 
-//*/
+*/
 
 /*
 Exercise 2
@@ -80,32 +80,4 @@ Require the two classes into the node REPL to verify it's working.
 
 // SOLUTION is in file userBase.js
 
-/*
-Challenge
-Implement the classes Candy and ShoppingBasket so you can require them into node and get the following behaviour:
-
-> const candy = new Candy('Mars', 4.99);
-
-> candy.getName();
-'Mars'
-> candy.getPrice();
-4.99
-
-> const basket = new ShoppingBasket();
-> basket.getTotalPrice();
-0
-
-> basket.addItem(candy);
-
-> basket.getTotalPrice();
-4.99
-
-> basket.addItem(new Candy('Skittle', 3.99));
-> basket.addItem(new Candy('Skittle', 3.99));
-
-> basket.getTotalPrice();
-12.97
-*/
-
-// SOLUTION
 
