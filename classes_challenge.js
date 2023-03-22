@@ -69,12 +69,12 @@ console.log(candy1.getName());
 console.log(candy1.getPrice());
 
 const basket = new ShoppingBasket();
-console.log(basket.getTotalPrice());
+console.log(basket.getTotalPrice()); // returns zero
 
 basket.addItem(candy1)
 basket.addItem(new Candy('Skittle', 3.99));
 basket.addItem(new Candy('Mars', 3.99));
-//console.log(basket.viewItems());
+console.log(basket.viewItems()); // returns list of all items in basket
 console.log(basket.getTotalPrice());
 
 module.exports = Candy;
